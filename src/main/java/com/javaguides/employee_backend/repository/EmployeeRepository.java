@@ -1,4 +1,4 @@
-package com.javaguides.employee_backend.Repository;
+package com.javaguides.employee_backend.repository;
 
 import com.javaguides.employee_backend.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
