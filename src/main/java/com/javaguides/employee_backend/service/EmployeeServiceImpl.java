@@ -2,9 +2,11 @@ package com.javaguides.employee_backend.service;
 
 import com.javaguides.employee_backend.model.Employee;
 import com.javaguides.employee_backend.repository.EmployeeRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepository employeeRepository;
